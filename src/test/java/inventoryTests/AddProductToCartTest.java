@@ -24,6 +24,7 @@ public class AddProductToCartTest extends BaseClass{
 	public  void tc_01_AddProductTocartTest() throws IOException, InterruptedException  {
 		
 		//read data from excel file
+		//read data from excel file
 		String productname=fUtil.readDataFromExcelFile("products", 1, 2);
 		System.out.println(productname);
 
